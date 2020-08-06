@@ -54,9 +54,8 @@ void palindrome(node *list){
 	}
 	else
 		printf("linked list is NOT palindrome\n");
-
-	
 }
+
 void display(node *list){
 	node *temp1=list;
 	while(temp1->next!=NULL){
@@ -64,7 +63,6 @@ void display(node *list){
 		printf("%d	",temp1->data);
 	}
 }
-
 
 void main()
 {
